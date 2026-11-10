@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="margen">16dp</dimen>
+    <dimen name="titulo">24sp</dimen>
+    <dimen name="subtitulo">16sp</dimen>
+</resources>

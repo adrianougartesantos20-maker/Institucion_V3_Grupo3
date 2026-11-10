@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Institucion"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".panel_admin"
+            android:exported="false" />
+        <activity
+            android:name=".menu_usuario"
+            android:exported="false" />
+        <activity
+            android:name=".registrar_usuario"
+            android:exported="false" />
+        <activity
+            android:name=".listar_usuarios"
+            android:exported="false" />
+        <activity
+            android:name=".editar_usuario"
+            android:exported="false" />
+        <activity
+            android:name=".asignar_roles"
+            android:exported="false" />
+        <activity
+            android:name=".editar_rol"
+            android:exported="false" />
+        <activity
+            android:name=".asignar_seccion"
+            android:exported="false" />
+        <activity
+            android:name=".registrar_asistencia"
+            android:exported="false" />
+        <activity
+            android:name=".mi_codigo_qr"
+            android:exported="false" />
+        <activity
+            android:name=".historial_asistencia"
+            android:exported="false" />
+        <activity
+            android:name=".asignar_curso"
+            android:exported="false" />
+        <activity
+            android:name=".tareas_asignadas"
+            android:exported="false" />
+        <activity
+            android:name=".registrar_notas"
+            android:exported="false" />
+        <activity
+            android:name=".perfil"
+            android:exported="false" />
+        <activity
+            android:name=".mis_notas"
+            android:exported="false" />
+        <activity
+            android:name=".mis_horarios"
+            android:exported="false" />
+        <activity
+            android:name=".registrar_horario"
+            android:exported="false" />
+        <activity
+            android:name=".reportes"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation" />
+
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

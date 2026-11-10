@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Institución</string>
+    <string name="app_subtitulo">Seguimiento académico</string>
+
+    <string name="usuario">Usuario (DNI)</string>
+    <string name="clave">Contraseña</string>
+    <string name="clave_opcional">Nueva contraseña (dejar vacío para mantener)</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="correo">Correo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="rol">Rol</string>
+    <string name="id">Id</string>
+    <string name="alumno">Alumno</string>
+    <string name="docente">Docente</string>
+    <string name="curso">Curso</string>
+    <string name="grado">Grado</string>
+    <string name="seccion">Sección</string>
+    <string name="periodo">Periodo</string>
+    <string name="periodo_actual">2026</string>
+    <string name="estado">Estado</string>
+    <string name="dia">Día</string>
+    <string name="hora_inicio">Hora inicio (HH:MM)</string>
+    <string name="hora_fin">Hora fin (HH:MM)</string>
+    <string name="evaluacion">Evaluación</string>
+    <string name="nota">Nota (0 a 20)</string>
+
+    <string name="ok">Registrar</string>
+    <string name="ver_lista">Ver lista</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="regresar">Regresar</string>
+    <string name="guardar">Guardar</string>
+    <string name="asignar">Asignar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+
+    <string name="titulo_login">Iniciar sesión</string>
+    <string name="ingresar">Ingresar</string>
+
+    <string name="titulo_panel">Panel de administración</string>
+    <string name="btn_usuarios">Gestionar usuarios</string>
+    <string name="btn_roles">Asignar roles</string>
+    <string name="btn_secciones">Asignar grados y secciones</string>
+    <string name="btn_cursos">Asignar cursos a docentes</string>
+    <string name="btn_horarios">Registrar horarios</string>
+    <string name="btn_reportes">Reportes</string>
+
+    <string name="titulo_menu">Menú principal</string>
+    <string name="btn_asistencia">Registrar asistencia (QR)</string>
+    <string name="btn_historial">Historial de asistencia</string>
+    <string name="btn_tareas">Tareas asignadas</string>
+    <string name="btn_perfil">Mi perfil</string>
+    <string name="btn_mis_notas">Mis notas</string>
+    <string name="btn_mis_horarios">Mis horarios</string>
+    <string name="btn_mi_qr">Mi código QR</string>
+
+    <string name="titulo_registrar_usuario">Registro de usuarios</string>
+    <string name="titulo_listar_usuarios">Usuarios registrados</string>
+    <string name="titulo_editar_usuario">Editar usuario</string>
+
+    <string name="titulo_roles">Asignar roles</string>
+    <string name="titulo_editar_rol">Cambiar rol</string>
+    <string name="toque_usuario">Toque un usuario para cambiar su rol</string>
+
+    <string name="titulo_secciones">Grados y secciones</string>
+    <string name="alumnos_asignados">Alumnos asignados (toque para quitar)</string>
+
+    <string name="titulo_asistencia">Registro de asistencia</string>
+    <string name="escanear">Escanear código QR</string>
+    <string name="codigo_manual">Código del alumno (si no se puede escanear)</string>
+    <string name="registrar_manual">Registrar manualmente</string>
+    <string name="prompt_qr">Enfoque el código QR del alumno</string>
+    <string name="titulo_historial">Historial de asistencia</string>
+    <string name="titulo_mi_qr">Mi código QR</string>
+    <string name="indicacion_qr">Muestre este código al auxiliar para registrar su asistencia.</string>
+
+    <string name="titulo_asignar_curso">Asignar cursos a docentes</string>
+    <string name="cursos_asignados">Cursos asignados (toque para quitar)</string>
+    <string name="titulo_tareas">Tareas asignadas</string>
+    <string name="toque_curso">Toque un curso para registrar las notas</string>
+    <string name="titulo_notas">Registro de notas</string>
+    <string name="notas_registradas">Notas registradas (toque para editar o eliminar)</string>
+
+    <string name="titulo_perfil">Mi perfil</string>
+
+    <string name="titulo_mis_notas">Mis notas</string>
+    <string name="titulo_mis_horarios">Mis horarios</string>
+    <string name="titulo_registrar_horario">Registrar horarios</string>
+    <string name="horarios_registrados">Horarios registrados (toque para eliminar)</string>
+
+    <string name="titulo_reportes">Reportes</string>
+    <string name="generar">Generar reporte</string>
+
+    <string-array name="roles">
+        <item>Administrador</item>
+        <item>Auxiliar</item>
+        <item>Docente</item>
+        <item>Alumno</item>
+    </string-array>
+    <string-array name="grados">
+        <item>1°</item>
+        <item>2°</item>
+        <item>3°</item>
+        <item>4°</item>
+        <item>5°</item>
+        <item>6°</item>
+    </string-array>
+    <string-array name="secciones">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    <string-array name="estados">
+        <item>Presente</item>
+        <item>Tardanza</item>
+        <item>Falta</item>
+    </string-array>
+    <string-array name="dias">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+    </string-array>
+    <string-array name="tipos_reporte">
+        <item>Usuarios por rol</item>
+        <item>Alumnos por grado y sección</item>
+        <item>Asistencia de hoy</item>
+        <item>Promedio de notas por curso</item>
+    </string-array>
+</resources>

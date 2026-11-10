@@ -1,0 +1,10 @@
+<resources>
+    <style name="Base.Theme.Institucion" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/fondo</item>
+    </style>
+
+    <style name="Theme.Institucion" parent="Base.Theme.Institucion" />
+</resources>
